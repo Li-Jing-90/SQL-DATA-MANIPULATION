@@ -35,15 +35,19 @@ Values
 
 ![](figure/error_mess.png)
 
-Error 1: $72.99, no dollar sign
+Error 1: $72.99, fixed: no dollar sign
+
 Error 2: Error while executing SQL query on database ‘Jaxpax’: unrecognized token: “)”
-            It should be ‘2020-22-22’
+         fixed: It should be ‘2020-22-22’
+	    
 Error 3: Error while executing SQL query on database ‘Jaxpax’: no such table Products
-	Table name is Product not Products
+	 fixed: Table name is Product not Products
+	 
 Error 4: Error While executing SQL query on Database ‘Jaxpax’: no such column: cv 11
-	cv11 is a character name, it should have a quote around, ’ cv11’
+	 fixed: cv11 is a character name, it should have a quote around, ’ cv11’
+	 
 Error 5: Error While executing SQL query on Database ‘Jaxpax’: UNIQUE constraint failed: Product.prodID
-	Double check if the product id number 400 already exist
+	fixed: Double check if the product id number 400 already exist
 	(412, ‘Canoe Pack’, ‘cv11’, 72.99, ‘2020-22-22’)
   
  ![](figure/fixederror.png) 
