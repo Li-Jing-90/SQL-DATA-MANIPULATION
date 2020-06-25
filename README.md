@@ -20,19 +20,19 @@ Click the structure to look at the data type and maximum size of each field
 #### 2. INSERT command
 ***** insert new rows to the table
 
-##### Insert into Product
-##### Values
-##### (377, ‘Outdoor 2-Gallon CoolerPack’,’ny10’,20.20,’2020-05-15’)
+	Insert into Product
+	Values
+	(377, ‘Outdoor 2-Gallon CoolerPack’,’ny10’,20.20,’2020-05-15’)
 
-##### Insert into Product
-##### Values
-##### (376, ‘Outdoor 1-Gallon CoolerPack’,’ny10’,15.99,’2020-05-15’)
+	Insert into Product
+	Values
+	(376, ‘Outdoor 1-Gallon CoolerPack’,’ny10’,15.99,’2020-05-15’)
 
 ### 3. Trouble Shooting
 
-##### Insert into Product
-##### Values
-##### (400, ‘Canoe Pack’, cv11, $72.99, 2020-22-22’)
+	Insert into Product
+	Values
+	(400, ‘Canoe Pack’, cv11, $72.99, 2020-22-22’)
 
 ![](figure/error_mess.png)
 
@@ -60,8 +60,8 @@ Scenario:
 Shipping prices have risen across the board, driving the overall production costs up about 7%.
 I have go to the table Product, review the current product cost and increase all of them by 7% 
 
-###### update Product
-###### set prodcost = (prodcost*1.07)
+	update Product
+	set prodcost = (prodcost*1.07)
 
 ![](figure/update_co.png) 
 Note:
@@ -72,16 +72,16 @@ Scenario:
 AAA Mercantile has been purchased by a competitor. The company’s name is now Fergus Textiles.
 
 
-###### update Supplier
-###### set supcompanyname = ‘Fergus Textiles’
-###### Where supID = 22
+	update Supplier
+	set supcompanyname = ‘Fergus Textiles’
+	Where supID = 22
 
 ![](figure/update_name.png)
 
 #### 5 The Batch load
 create new table named Customer
 
-###### Create table Customer
+	Create table Customer
 	(CustID		 integer primary key,
 	CustLastName		char(20),
 	CustFirstName		char(15),
@@ -90,8 +90,8 @@ create new table named Customer
 
 ![](figure/customer.png)
 
-##### Insert into Customer
-##### Values
+	Insert into Customer
+	Values
 	(22000, ‘Jonas’, ‘Ricky’, 0),
 	(33000, ‘Chow’, ‘Mickey’, 5),
 	(42000, ‘Victoria’, ‘Elvia’, 0)
@@ -104,15 +104,15 @@ Note: you can type this customer information in the notepad and saved it as “l
 
 #### 6 DELETE and DROP
 
-##### delete from Customer
-##### Where CustID = 22000
+	delete from Customer
+	Where CustID = 22000
 
 Note: WHERE Clause is very important, DELETE Customer without WHERE all rows of data from the table will be deleted, and the table structure intact
 
-##### delete from Customer
-##### Where  CustDiscount = 5
+	delete from Customer
+	Where  CustDiscount = 5
 
-##### Drop table Customer
+	Drop table Customer
 
 
 
