@@ -20,9 +20,9 @@ Click the structure to look at the data type and maximum size of each field
 #### 2 INSERT command
 ***** insert new rows to the table
 
-Insert into Product
-Values
-(377, ‘Outdoor 2-Gallon CoolerPack’,’ny10’,20.20,’2020-05-15’)
+##### Insert into Product
+##### Values
+H5 (377, ‘Outdoor 2-Gallon CoolerPack’,’ny10’,20.20,’2020-05-15’)
 
 Insert into Product
 Values
