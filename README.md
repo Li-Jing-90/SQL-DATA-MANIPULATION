@@ -18,7 +18,7 @@ Click the structure to look at the data type and maximum size of each field
 ![](figure/supplier.png)
 
 #### relational schema
-![](figure/retional.png)
+![](figure/relational.png)
 
 
 #### 2. INSERT command
