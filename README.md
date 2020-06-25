@@ -17,6 +17,10 @@ Click the structure to look at the data type and maximum size of each field
 
 ![](figure/supplier.png)
 
+#### relational schema
+![](figure/retional.png)
+
+
 #### 2. INSERT command
 ***** insert new rows to the table
 
@@ -100,6 +104,7 @@ create new table named Customer
 	;
 
 Note: you can type this customer information in the notepad and saved it as “loadCustomer.sql” and then load the .sql file to the query window
+
 ![](figure/customerfill.png)
 
 #### 6 DELETE and DROP
