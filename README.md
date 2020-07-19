@@ -1,6 +1,6 @@
 ### SQL-DATA-MANIPULATION
 #### Part 1:
-1)Identify data types and constraints which affect the way of data manipulation
+* Identify data types and constraints which affect the way of data manipulation
 
 2)INSERT command and UPDATE command: insert rows of new data into a relational database table and modify existing pieces of data within a table row
 
